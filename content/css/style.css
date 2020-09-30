@@ -1,3 +1,10 @@
+.noselect {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
 @-webkit-keyframes topNav_compress {
   0% {
     height: 50px;
@@ -134,9 +141,16 @@
   }
 }
 
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   background: #ababab;
-  height: 2500px;
+  margin-top: 50px;
+  width: 100%;
+  height: calc(100% - 50px);
 }
 
 header {
@@ -224,9 +238,6 @@ header.unfilled.filled div.nav_header > div.navMenu.noselect > div.menu-topmenu-
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   height: 100%;
   width: 100%;
   max-width: 1200px;
@@ -263,7 +274,6 @@ header.unfilled.filled div.nav_header > div.navMenu.noselect > div.menu-topmenu-
           justify-content: center;
   height: 100%;
   width: 100%;
-  padding: .25rem 1.5rem .25rem 1.5rem;
 }
 
 .navLogo-container a img {
@@ -428,10 +438,6 @@ header.unfilled.filled div.nav_header > div.navMenu.noselect > div.menu-topmenu-
   }
 }
 
-.navMenu {
-  width: 170px;
-}
-
 @media screen and (max-width: 767px) {
   .menu-topmenu-container {
     height: 1%;
@@ -563,5 +569,89 @@ header.unfilled.filled div.nav_header > div.navMenu.noselect > div.menu-topmenu-
     height: 33%;
     right: 0;
   }
+}
+
+.content-view {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: salmon;
+}
+
+.main-content-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 250px;
+  height: 100%;
+  background: #2a1e30;
+  color: #cccccc;
+}
+
+.main-content-menu .main-content-search-container {
+  width: 100%;
+  padding: 20px;
+  background: rgba(201, 201, 201, 0.05);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-content-menu .main-content-menu-container {
+  width: 100%;
+  overflow-y: auto;
+  font-size: 18px;
+  background: rgba(173, 216, 230, 0.05);
+}
+
+.main-content-menu .main-content-menu-container a {
+  text-decoration: none;
+}
+
+.main-content-menu .main-content-menu-container a div {
+  padding: 8px;
+  color: #cccccc;
+}
+
+.main-content-menu .main-content-menu-container a div:hover {
+  background: rgba(173, 216, 230, 0.15);
+  color: #e6e6e6;
+  cursor: pointer;
+}
+
+.main-content-content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  overflow: auto;
+  background: #f2f2f2;
+  font-family: Roboto;
+}
+
+.main-content-content-container h1 {
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  font-size: 3rem;
+}
+
+.main-content-content-container h2 {
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+  font-size: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
