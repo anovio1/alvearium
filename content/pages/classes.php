@@ -9,10 +9,10 @@
     <div class="alvear-dnd-card-content">
         <div class="alvear-dnd-card-content-header">
             <div class="alvear-dnd-card-content-header-icon">
-                <img src="/dndcsgo/images/symbol_0008_Fighter.png"></img>
+                <img src="/dndcsgo/images/symbol_fighter.png"></img>
             </div>
             <div class="alvear-dnd-card-content-header-text">
-                <h1 class='alvear-dnd-after'>{Fighter}</h1>
+                <h1 class='alvear-dnd-after'>Fighter</h1>
                 <span>A master of martial combat, skilled with a variety of weapons and armor</span>
                 <div class="extraInfo">
                     <span class="">Weapon Restriction</span>
@@ -42,10 +42,43 @@
     </div>
 </div>
 
-<div id="fighterCard" class="alvear-dnd-card-container"> <div class="alvear-dnd-card-content"> <div class="alvear-dnd-card-content-header"> <div class="alvear-dnd-card-content-header-icon"> <img src="/dndcsgo/images/symbol_0008_Fighter.png"></img> </div><div class="alvear-dnd-card-content-header-text"> <h1 class='alvear-dnd-after'>{Fighter}</h1> <span>A master of martial combat, skilled with a variety of weapons and armor</span> <div class="extraInfo"> <span class="">Weapon Restriction</span> <div class="alvear-dnd-card-barBg"> <div class="alvear-dnd-card-barFill" ></div></div></div></div></div><div class="alvear-dnd-card-content-extended"> <span>hey<span><br><span>hey<span><br><span>hey<span><br><span>hey<span><br><span>hey<span><br><span>hey<span><br></div></div><div class="alvear-dnd-button-container"> <a href="#"><button _target="fighter">...</button></a> <a><button>View Fighter Details</button></a> </div><div class="classIcon-container"> </div></div>
-<div id="fighterCard" class="alvear-dnd-card-container"> <div class="alvear-dnd-card-content"> <div class="alvear-dnd-card-content-header"> <div class="alvear-dnd-card-content-header-icon"> <img src="/dndcsgo/images/symbol_0008_Fighter.png"></img> </div><div class="alvear-dnd-card-content-header-text"> <h1 class='alvear-dnd-after'>{Fighter}</h1> <span>A master of martial combat, skilled with a variety of weapons and armor</span> <div class="extraInfo"> <span class="">Weapon Restriction</span> <div class="alvear-dnd-card-barBg"> <div class="alvear-dnd-card-barFill" ></div></div></div></div></div><div class="alvear-dnd-card-content-extended"> <span>hey<span><br><span>hey<span><br><span>hey<span><br><span>hey<span><br><span>hey<span><br><span>hey<span><br></div></div><div class="alvear-dnd-button-container"> <a href="#"><button _target="fighter">...</button></a> <a><button>View Fighter Details</button></a> </div><div class="classIcon-container"> </div></div>
-<div id="fighterCard" class="alvear-dnd-card-container"> <div class="alvear-dnd-card-content"> <div class="alvear-dnd-card-content-header"> <div class="alvear-dnd-card-content-header-icon"> <img src="/dndcsgo/images/symbol_0008_Fighter.png"></img> </div><div class="alvear-dnd-card-content-header-text"> <h1 class='alvear-dnd-after'>{Fighter}</h1> <span>A master of martial combat, skilled with a variety of weapons and armor</span> <div class="extraInfo"> <span class="">Weapon Restriction</span> <div class="alvear-dnd-card-barBg"> <div class="alvear-dnd-card-barFill" ></div></div></div></div></div><div class="alvear-dnd-card-content-extended"> <span>hey<span><br><span>hey<span><br><span>hey<span><br><span>hey<span><br><span>hey<span><br><span>hey<span><br></div></div><div class="alvear-dnd-button-container"> <a href="#"><button _target="fighter">...</button></a> <a><button>View Fighter Details</button></a> </div><div class="classIcon-container"> </div></div>
-<div id="fighterCard" class="alvear-dnd-card-container"> <div class="alvear-dnd-card-content"> <div class="alvear-dnd-card-content-header"> <div class="alvear-dnd-card-content-header-icon"> <img src="/dndcsgo/images/symbol_0008_Fighter.png"></img> </div><div class="alvear-dnd-card-content-header-text"> <h1 class='alvear-dnd-after'>{Fighter}</h1> <span>A master of martial combat, skilled with a variety of weapons and armor</span> <div class="extraInfo"> <span class="">Weapon Restriction</span> <div class="alvear-dnd-card-barBg"> <div class="alvear-dnd-card-barFill" ></div></div></div></div></div><div class="alvear-dnd-card-content-extended"> <span>hey<span><br><span>hey<span><br><span>hey<span><br><span>hey<span><br><span>hey<span><br><span>hey<span><br></div></div><div class="alvear-dnd-button-container"> <a href="#"><button _target="fighter">...</button></a> <a><button>View Fighter Details</button></a> </div><div class="classIcon-container"> </div></div>
+
+<div id="fighterCard" class="alvear-dnd-card-container">
+    <div class="alvear-dnd-card-content">
+        <div class="alvear-dnd-card-content-header">
+            <div class="alvear-dnd-card-content-header-icon">
+                <img src="/dndcsgo/images/symbol_cleric.png"></img>
+            </div>
+            <div class="alvear-dnd-card-content-header-text">
+                <h1 class='alvear-dnd-after'>Cleric</h1>
+                <span>A priestly champion who wields divine magic in service of a higher power</span>
+                <div class="extraInfo">
+                    <span class="">Weapon Restriction</span>
+                    <div class="alvear-dnd-card-barBg">
+                        <div class="alvear-dnd-card-barFill" style="width:15%"
+                        ></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="alvear-dnd-card-content-extended">
+            <span>hey<span><br>
+            <span>hey<span><br>
+            <span>hey<span><br>
+            <span>hey<span><br>
+            <span>hey<span><br>
+            <span>hey<span><br>
+            <span>hey<span><br>
+            <span>hey<span><br>
+        </div>
+    </div>
+    <div class="alvear-dnd-button-container">
+        <a href="#"><button _target="fighter">...</button></a>
+        <a><button>View Fighter Details</button></a>
+    </div>
+    <div class="classIcon-container">
+    </div>
+</div>
 
 </div>
 

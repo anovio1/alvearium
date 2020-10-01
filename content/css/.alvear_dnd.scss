@@ -13,7 +13,7 @@
     height: fit-content;
     background-color: hsla(0,0%,80%,1);
     padding: 10px;
-    margin: 10px 20px 10px 0px;
+    margin: 10px 20px 20px 0px;
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
@@ -63,10 +63,12 @@
             .alvear-dnd-card-content-header-icon{
                 vertical-align: top;
                 display: inline-flex;
-                width: 90px;
-                height: 90px;
+                width: 70px;
+                height: 70px;
+                margin: 0px 10px 10px 0px;
                 position: relative;
                 background-color: #2e0000;
+                border-radius: 10px;
                 &:before{
                     content: "";
                     background-image: url("/dndcsgo/images/pattern_parchment.jpg");
@@ -76,7 +78,7 @@
                     right: 0px;
                     bottom: 0px;
                     left: 0px;
-                    opacity: .2;
+                    opacity: .3;
                 }
                 img{
                     object-fit: cover;

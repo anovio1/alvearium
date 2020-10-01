@@ -19,7 +19,7 @@
   height: fit-content;
   background-color: #cccccc;
   padding: 10px;
-  margin: 10px 20px 10px 0px;
+  margin: 10px 20px 20px 0px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-box-pack: center;
@@ -78,10 +78,12 @@
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
+  margin: 0px 10px 10px 0px;
   position: relative;
   background-color: #2e0000;
+  border-radius: 10px;
 }
 
 .alvear-dnd-card-container .alvear-dnd-card-content .alvear-dnd-card-content-header .alvear-dnd-card-content-header-icon:before {
@@ -93,7 +95,7 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: .2;
+  opacity: .3;
 }
 
 .alvear-dnd-card-container .alvear-dnd-card-content .alvear-dnd-card-content-header .alvear-dnd-card-content-header-icon img {
