@@ -1,0 +1,147 @@
+/* custom css for dnd website */
+
+.alvear-dnd-card-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.alvear-dnd-card-container{
+    display: flex;
+    position: relative;
+    width: 470px;
+    max-width: 470px;
+    height: fit-content;
+    background-color: hsla(0,0%,80%,1);
+    padding: 10px;
+    margin: 10px 20px 10px 0px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+
+    &:before{
+        content: "";
+        background-image: url("/dndcsgo/images/pattern_parchment.jpg");
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.2;
+    }
+
+    div.classIcon-container{
+        position: absolute;
+        overflow: hidden;
+        height: 100%;
+        width: 75%;
+        right: 0px;
+        
+        &:after{
+            content: '';
+            background-image: url("/dndcsgo/images/fighter.png");
+            background-size: cover;
+            background-position: 90px 0%;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            opacity: 1;
+        }
+    }
+
+
+    .alvear-dnd-card-content{
+        z-index: 5;
+        background: hsla(0,0%,95%,.8);
+        width: 100%;
+        padding: 15px 10px;
+        box-sizing: border-box;
+        .alvear-dnd-card-content-header{
+            .alvear-dnd-card-content-header-icon{
+                vertical-align: top;
+                display: inline-flex;
+                width: 90px;
+                height: 90px;
+                position: relative;
+                background-color: #2e0000;
+                &:before{
+                    content: "";
+                    background-image: url("/dndcsgo/images/pattern_parchment.jpg");
+                    background-size: cover;
+                    position: absolute;
+                    top: 0px;
+                    right: 0px;
+                    bottom: 0px;
+                    left: 0px;
+                    opacity: .2;
+                }
+                img{
+                    object-fit: cover;
+                    height: auto;
+                    width: 100%;
+                    z-index: 5;
+                }
+            }
+            .alvear-dnd-card-content-header-text{
+                vertical-align: top;
+                display: inline-flex;
+                flex-direction: column;
+                width: calc(100% - 100px);
+                h1{
+                    margin: 0;
+                    font-size: 20px;
+                }
+                span{
+                    margin-top: 5px;
+                    font-size: 12px;
+                    font-weight: 600;
+                }
+                .extraInfo{
+                    margin-top: 5px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    .alvear-dnd-card-barBg{
+                        flex: 1;
+                        background: white;
+                        height: 10px;
+                        margin-left: 10px;
+                        position: relative;
+                        .alvear-dnd-card-barFill{
+                            background: red;
+                            width: 10%;
+                            height: 100%;
+                            position: absolute;
+                            left: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .alvear-dnd-card-content-extended{
+            max-height: 0px;
+            transition: .5s all;
+            overflow: hidden;
+        }
+    }
+    .alvear-dnd-button-container{
+        z-index: 5;
+        width: 200px;
+        height: 30px;
+        display: flex;
+        position: absolute;
+        bottom: -15px;
+        a{display: flex;}
+        button{
+            font-size: 12px;
+            border-radius: 5px;
+            border: none;
+            background: orange;
+            padding: 0px 10px;
+            margin: 0px 5px;
+        }
+    }
+}

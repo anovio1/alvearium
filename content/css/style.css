@@ -618,6 +618,11 @@ header.unfilled.filled div.nav_header > div.navMenu.noselect > div.menu-topmenu-
   color: #cccccc;
 }
 
+.main-content-menu .main-content-menu-container a div.child {
+  padding-left: 30px;
+  font-size: 16px;
+}
+
 .main-content-menu .main-content-menu-container a div:hover {
   background: rgba(173, 216, 230, 0.15);
   color: #e6e6e6;

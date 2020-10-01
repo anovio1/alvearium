@@ -627,6 +627,10 @@ header{
             div{
                 padding: 8px;
                 color: map-get($main-content-menu,'text-color');
+                &.child{
+                    padding-left: 30px;
+                    font-size: 16px;
+                }
                 &:hover{
                     background: hsla(195, 53%, 79%,.15);
                     color: map-get($main-content-menu,'text-hover-color');

@@ -22,8 +22,8 @@ class dnd{
                 <div class='main-content-menu-container'>
                     <a href='/'><div class=''>Home</div></a>
                     <a href='/dndcsgo'><div class=''>D&D CSGO RPG</div></a>
-                    <a href='/'><div class=''>Classes</div></a>
-                    <a href='/'><div class=''>Races</div></a>
+                    <a href='/classes'><div class='child'>Classes</div></a>
+                    <a href='/races'><div class='child'>Races</div></a>
                     <a href='/'><div class=''>Mod Help</div></a>
                     <a href='/'><div class=''>Found a Bug?</div></a>
                 </div>
@@ -39,12 +39,7 @@ class dnd{
     }
 
     static public function get_page($inputString){
-        switch($inputString){
-            case "home":
-                return file_get_contents(dnd::$docroot . '/pages/home.php');
-            case "dndcsgo":
-                return file_get_contents(dnd::$docroot . '/pages/dndcsgo.php');
-        }
+        return file_get_contents(dnd::$docroot . '/pages/'.$inputString.'.php');
     }
 
     static public function get_header(){
