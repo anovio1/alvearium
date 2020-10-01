@@ -37,10 +37,21 @@
         width: 75%;
         right: 0px;
         
+        &.barbarian:after{ background-image: url("/dndcsgo/images/barbarian.png"); }
+        &.bard:after{ background-image: url("/dndcsgo/images/bard.png"); }
+        &.cleric:after{ background-image: url("/dndcsgo/images/cleric.png"); }
+        &.druid:after{ background-image: url("/dndcsgo/images/druid.png"); }
+        &.fighter:after{ background-image: url("/dndcsgo/images/fighter.png"); }
+        &.monk:after{ background-image: url("/dndcsgo/images/monk.png"); }
+        &.paladin:after{ background-image: url("/dndcsgo/images/paladin.png"); }
+        &.ranger:after{ background-image: url("/dndcsgo/images/ranger.png"); }
+        &.rogue:after{ background-image: url("/dndcsgo/images/rogue.png"); }
+        &.sorcerer:after{ background-image: url("/dndcsgo/images/sorcerer.png"); }
+        &.warlock:after{ background-image: url("/dndcsgo/images/warlock.png"); }
+        &.wizard:after{ background-image: url("/dndcsgo/images/wizard.png"); }
         &:after{
             content: '';
-            background-image: url("/dndcsgo/images/fighter.png");
-            background-size: cover;
+            background-size: 100%;
             background-position: 90px 0%;
             background-repeat: no-repeat;
             position: absolute;
@@ -92,9 +103,10 @@
                 display: inline-flex;
                 flex-direction: column;
                 width: calc(100% - 100px);
-                h1{
+                h1.alvear-dnd-after{
                     margin: 0;
                     font-size: 20px;
+                    text-transform: capitalize;
                 }
                 span{
                     margin-top: 5px;
@@ -114,7 +126,6 @@
                         position: relative;
                         .alvear-dnd-card-barFill{
                             background: red;
-                            width: 10%;
                             height: 100%;
                             position: absolute;
                             left: 0;

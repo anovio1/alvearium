@@ -20,7 +20,7 @@
 
     <div class="nav_header">
                 <div class="navLogo-container">
-                    <a class="" style="background:red" href="/">
+                    <a class="" style="" href="/">
                         <img class="" src="/images/logo.png" alt="Home">
                 </a>            </div>
                 <div class="navMenu noselect">

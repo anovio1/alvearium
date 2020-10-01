@@ -50,10 +50,57 @@
   right: 0px;
 }
 
+.alvear-dnd-card-container div.classIcon-container.barbarian:after {
+  background-image: url("/dndcsgo/images/barbarian.png");
+}
+
+.alvear-dnd-card-container div.classIcon-container.bard:after {
+  background-image: url("/dndcsgo/images/bard.png");
+}
+
+.alvear-dnd-card-container div.classIcon-container.cleric:after {
+  background-image: url("/dndcsgo/images/cleric.png");
+}
+
+.alvear-dnd-card-container div.classIcon-container.druid:after {
+  background-image: url("/dndcsgo/images/druid.png");
+}
+
+.alvear-dnd-card-container div.classIcon-container.fighter:after {
+  background-image: url("/dndcsgo/images/fighter.png");
+}
+
+.alvear-dnd-card-container div.classIcon-container.monk:after {
+  background-image: url("/dndcsgo/images/monk.png");
+}
+
+.alvear-dnd-card-container div.classIcon-container.paladin:after {
+  background-image: url("/dndcsgo/images/paladin.png");
+}
+
+.alvear-dnd-card-container div.classIcon-container.ranger:after {
+  background-image: url("/dndcsgo/images/ranger.png");
+}
+
+.alvear-dnd-card-container div.classIcon-container.rogue:after {
+  background-image: url("/dndcsgo/images/rogue.png");
+}
+
+.alvear-dnd-card-container div.classIcon-container.sorcerer:after {
+  background-image: url("/dndcsgo/images/sorcerer.png");
+}
+
+.alvear-dnd-card-container div.classIcon-container.warlock:after {
+  background-image: url("/dndcsgo/images/warlock.png");
+}
+
+.alvear-dnd-card-container div.classIcon-container.wizard:after {
+  background-image: url("/dndcsgo/images/wizard.png");
+}
+
 .alvear-dnd-card-container div.classIcon-container:after {
   content: '';
-  background-image: url("/dndcsgo/images/fighter.png");
-  background-size: cover;
+  background-size: 100%;
   background-position: 90px 0%;
   background-repeat: no-repeat;
   position: absolute;
@@ -118,9 +165,10 @@
   width: calc(100% - 100px);
 }
 
-.alvear-dnd-card-container .alvear-dnd-card-content .alvear-dnd-card-content-header .alvear-dnd-card-content-header-text h1 {
+.alvear-dnd-card-container .alvear-dnd-card-content .alvear-dnd-card-content-header .alvear-dnd-card-content-header-text h1.alvear-dnd-after {
   margin: 0;
   font-size: 20px;
+  text-transform: capitalize;
 }
 
 .alvear-dnd-card-container .alvear-dnd-card-content .alvear-dnd-card-content-header .alvear-dnd-card-content-header-text span {
@@ -153,7 +201,6 @@
 
 .alvear-dnd-card-container .alvear-dnd-card-content .alvear-dnd-card-content-header .alvear-dnd-card-content-header-text .extraInfo .alvear-dnd-card-barBg .alvear-dnd-card-barFill {
   background: red;
-  width: 10%;
   height: 100%;
   position: absolute;
   left: 0;
