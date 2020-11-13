@@ -1,11 +1,8 @@
 <div class="main-content-content-left">
-<h1 class='title'>Home</h1>
-    <h2>Currently Under Development</h2>
-    <span class=''>Please bare with us while the site changes</span>
+<h1 class='title'>Server Status</h1>
     
-    <h2>Current servers available</h2>
     <span class=''>
-        You can check out the status of each server <a href='/status'>here</a>
+        Check out 68.232.160.229:23010 for the D&D 5e CSGO server!
         <li class=''><a href="https://discord.com/invite/sweJzRZ" class="">Discord</a></li>
         <li class=''>Counter-strike:Global offensive
             <div>
@@ -16,11 +13,4 @@
         </li>
         
     </span>
-
-    <h2>About me</h2>
-    <span class=''>
-        More on the way!
-    </span>
-</div>
-<div class="main-content-content-right">
 </div>

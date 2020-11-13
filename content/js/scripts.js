@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('body > div > div.main-content-content-container > div>  div > div.alvear-dnd-button-container > a:nth-child(1) > button:nth-child(1)').on('click',function(){
+    $('body > div > div.main-content-content-container > .main-content-content-left > div>  div > div.alvear-dnd-button-container > a:nth-child(1) > button:nth-child(1)').on('click',function(){
         console.log($(this).closest('div.alvear-dnd-card-container').children('.alvear-dnd-card-content').children('.alvear-dnd-card-content-extended').css('height'));
         $(this).closest('div.alvear-dnd-card-container').children('.alvear-dnd-card-content').children('.alvear-dnd-card-content-extended').css('max-height','750px');
     })

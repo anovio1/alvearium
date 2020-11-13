@@ -12,14 +12,14 @@
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  width: 470px;
-  max-width: 470px;
+  width: 420px;
+  max-width: 420px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   background-color: #cccccc;
   padding: 10px;
-  margin: 10px 20px 20px 0px;
+  margin: 10px 40px 40px 0px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-box-pack: center;
@@ -28,6 +28,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.alvear-dnd-card-container.dnd-race {
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
 }
 
 .alvear-dnd-card-container:before {
@@ -48,6 +54,42 @@
   height: 100%;
   width: 75%;
   right: 0px;
+}
+
+.alvear-dnd-card-container div.classIcon-container.dragonborn:after {
+  background-image: url("/dndcsgo/images/races/dragonborn.png");
+}
+
+.alvear-dnd-card-container div.classIcon-container.dwarf:after {
+  background-image: url("/dndcsgo/images/races/dwarf.png");
+}
+
+.alvear-dnd-card-container div.classIcon-container.elf:after {
+  background-image: url("/dndcsgo/images/races/elf.png");
+}
+
+.alvear-dnd-card-container div.classIcon-container.gnome:after {
+  background-image: url("/dndcsgo/images/races/gnome.png");
+}
+
+.alvear-dnd-card-container div.classIcon-container.halfElf:after {
+  background-image: url("/dndcsgo/images/races/halfElf.png");
+}
+
+.alvear-dnd-card-container div.classIcon-container.halfling:after {
+  background-image: url("/dndcsgo/images/races/halfling.png");
+}
+
+.alvear-dnd-card-container div.classIcon-container.halfOrc:after {
+  background-image: url("/dndcsgo/images/races/halfOrc.png");
+}
+
+.alvear-dnd-card-container div.classIcon-container.human:after {
+  background-image: url("/dndcsgo/images/races/human.png");
+}
+
+.alvear-dnd-card-container div.classIcon-container.tiefling:after {
+  background-image: url("/dndcsgo/images/races/tiefling.png");
 }
 
 .alvear-dnd-card-container div.classIcon-container.barbarian:after {
@@ -111,13 +153,24 @@
   opacity: 1;
 }
 
+.alvear-dnd-card-container div.classIcon-container.raceIcon:after {
+  background-position: 60px 0%;
+}
+
 .alvear-dnd-card-container .alvear-dnd-card-content {
   z-index: 5;
   background: rgba(242, 242, 242, 0.8);
-  width: 100%;
   padding: 15px 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.alvear-dnd-card-container .alvear-dnd-card-content.dnd-class {
+  width: 100%;
+}
+
+.alvear-dnd-card-container .alvear-dnd-card-content.dnd-race {
+  width: 50%;
 }
 
 .alvear-dnd-card-container .alvear-dnd-card-content .alvear-dnd-card-content-header .alvear-dnd-card-content-header-icon {
@@ -125,11 +178,14 @@
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 70px;
   height: 70px;
   margin: 0px 10px 10px 0px;
   position: relative;
-  background-color: #2e0000;
+  background-color: #431f1f;
   border-radius: 10px;
 }
 
@@ -142,14 +198,14 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: .3;
+  opacity: .1;
 }
 
 .alvear-dnd-card-container .alvear-dnd-card-content .alvear-dnd-card-content-header .alvear-dnd-card-content-header-icon img {
   -o-object-fit: cover;
      object-fit: cover;
   height: auto;
-  width: 100%;
+  width: 75%;
   z-index: 5;
 }
 
@@ -163,6 +219,10 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: calc(100% - 100px);
+}
+
+.alvear-dnd-card-container .alvear-dnd-card-content .alvear-dnd-card-content-header .alvear-dnd-card-content-header-text.dnd-race {
+  width: 100%;
 }
 
 .alvear-dnd-card-container .alvear-dnd-card-content .alvear-dnd-card-content-header .alvear-dnd-card-content-header-text h1.alvear-dnd-after {
@@ -215,13 +275,17 @@
 
 .alvear-dnd-card-container .alvear-dnd-button-container {
   z-index: 5;
-  width: 200px;
+  width: 100%;
   height: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   position: absolute;
   bottom: -15px;
+  left: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .alvear-dnd-card-container .alvear-dnd-button-container a {
@@ -237,5 +301,155 @@
   background: orange;
   padding: 0px 10px;
   margin: 0px 5px;
+}
+
+.dnd-classRace-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 350px;
+  width: 100%;
+  background-position: 0 5% !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.dnd-classRace-banner.bard {
+  background: url("/dndcsgo/images/classBanners/bard.jpg");
+}
+
+.dnd-classRace-banner.cleric {
+  background: url("/dndcsgo/images/classBanners/cleric.jpg");
+}
+
+.dnd-classRace-banner.fighter {
+  background: url("/dndcsgo/images/classBanners/fighter.jpg");
+}
+
+.dnd-classRace-banner.monk {
+  background: url("/dndcsgo/images/classBanners/monk.jpg");
+}
+
+.dnd-classRace-banner.paladin {
+  background: url("/dndcsgo/images/classBanners/paladin.jpg");
+}
+
+.dnd-classRace-banner.ranger {
+  background: url("/dndcsgo/images/classBanners/ranger.jpg");
+}
+
+.dnd-classRace-banner.rogue {
+  background: url("/dndcsgo/images/classBanners/rogue.jpg");
+}
+
+.dnd-classRace-banner.sorcerer {
+  background: url("/dndcsgo/images/classBanners/sorcerer.jpg");
+}
+
+.dnd-classRace-banner.warlock {
+  background: url("/dndcsgo/images/classBanners/warlock.jpg");
+}
+
+.dnd-classRace-banner.wizard {
+  background: url("/dndcsgo/images/classBanners/wizard.jpg");
+}
+
+.dnd-classRace-banner .classRace-banner-title {
+  margin-bottom: 50px !important;
+}
+
+.dnd-classRace-banner .classRace-banner-title h1 {
+  margin-top: 0 !important;
+  margin-left: 50px;
+  color: #efefef;
+  font-size: 95px !important;
+  text-shadow: 2px 2px rgba(26, 26, 26, 0.9);
+}
+
+.dnd-classRace-banner .classRace-banner-title h2 {
+  margin-bottom: -10px !important;
+  margin-left: 50px;
+  color: #efefef;
+  font-size: 25px !important;
+  text-shadow: 2px 2px rgba(26, 26, 26, 0.9);
+  text-transform: uppercase;
+}
+
+.dnd-classRace-content {
+  max-width: 75%;
+  padding-left: 20px;
+}
+
+.dnd-classRace-content .dnd-mech h2 {
+  font-weight: 500 !important;
+}
+
+.dnd-classRace-content .dnd-mech h3 {
+  font-weight: 500 !important;
+  font-size: 1.3rem;
+  margin-left: 30px;
+}
+
+.dnd-classRace-content .dnd-mech h4 {
+  font-weight: 700 !important;
+  font-size: 1rem;
+  margin-left: 60px;
+  margin-bottom: 0px !important;
+}
+
+.dnd-classRace-content .dnd-mech h4:not(:first-of-type) {
+  margin-top: 15px;
+}
+
+.dnd-classRace-content .dnd-mech span.classRaceSpan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 60px;
+  font-size: .95rem;
+}
+
+.dnd-classRace-content .dnd-mech:not(:first-of-type) {
+  margin-top: 25px;
+}
+
+.dnd-classRace-content .dnd-mech:last-of-type {
+  margin-bottom: 50px;
+}
+
+#bugSection h2 {
+  margin-top: 0 !important;
+  font-weight: 400;
+}
+
+#bugSection h3 {
+  margin-top: 1rem !important;
+}
+
+#bugSection h3:not(:first-of-type) {
+  margin-top: 2rem !important;
+}
+
+#bugSection ol {
+  counter-reset: item;
+}
+
+#bugSection li {
+  display: block;
+}
+
+#bugSection li:before {
+  content: counters(item, ".") ". ";
+  counter-increment: item;
+}
+
+#bugSection #bugContent {
+  margin-left: 25px;
 }
 /*# sourceMappingURL=.alvear_dnd.css.map */

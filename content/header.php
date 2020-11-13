@@ -18,22 +18,23 @@
 
 <header class="d-flex unfilled">
 
-    <div class="nav_header">
+    <div class="nav_header noselect">
                 <div class="navLogo-container">
                     <a class="" style="" href="/">
                         <img class="" src="/images/logo.png" alt="Home">
                 </a>            </div>
-                <div class="navMenu noselect">
+                <div class="navMenu">
                     <div class="navCollapseButton" expanded="false">
                         <div id="navRect1" class="navRect"></div>
                         <div id="navRect2" class="navRect"></div>
                     </div>
                     <div class="menu-topmenu-container">
                         <ul id="menu-topmenu" class="nav_topMenu">
-                            <li id="" class="menu-item"><a href="#about">News</a></li>
-                            <li id="" class="menu-item"><a href="#2">Status</a></li>
-                            <li id="" class="menu-item"><a href="#3">About</a></li>
-                            <li id="" class="menu-item"><a href="#3">Contact</a></li>
+                            <li id="" class="menu-item"><a href="#1">News</a></li>
+                            <li id="" class="menu-item"><a href="/status">Status</a></li>
+                            <li id="" class="menu-item"><a href="/about">About</a></li>
+                            <li id="" class="menu-item"><a href="/contact">Contact</a></li>
+                            <li id="" class="menu-item"><a href="https://www.patreon.com/dndcsgo">Patreon</a></li>
                         </ul>
                     </div> 
                 </div>
