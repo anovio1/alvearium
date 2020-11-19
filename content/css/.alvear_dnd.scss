@@ -192,6 +192,39 @@
     display: flex;
     height: 350px;
     width: 100%;
+
+    &.race{
+        height: 500px;
+    }
+
+    &.dragonborn{
+        background: url("/dndcsgo/images/raceBanners/dragonborn.jpg");
+    }
+    &.dwarf{
+        background: url("/dndcsgo/images/raceBanners/dwarf.jpg");
+    }
+    &.elf{
+        background: url("/dndcsgo/images/raceBanners/elf.jpg");
+    }
+    &.gnome{
+        background: url("/dndcsgo/images/raceBanners/gnome.jpg");
+    }
+    &.halfElf{
+        background: url("/dndcsgo/images/raceBanners/halfElf.jpg");
+    }
+    &.halfling{
+        background: url("/dndcsgo/images/raceBanners/halfling.jpg");
+    }
+    &.halfOrc{
+        background: url("/dndcsgo/images/raceBanners/halfOrc.jpg");
+    }
+    &.human{
+        background: url("/dndcsgo/images/raceBanners/human.jpg");
+    }
+    &.tiefling{
+        background: url("/dndcsgo/images/raceBanners/tiefling.jpg");
+    }
+
     &.bard{
         background: url("/dndcsgo/images/classBanners/bard.jpg");
     }

@@ -320,6 +320,46 @@
           justify-content: left;
 }
 
+.dnd-classRace-banner.race {
+  height: 500px;
+}
+
+.dnd-classRace-banner.dragonborn {
+  background: url("/dndcsgo/images/raceBanners/dragonborn.jpg");
+}
+
+.dnd-classRace-banner.dwarf {
+  background: url("/dndcsgo/images/raceBanners/dwarf.jpg");
+}
+
+.dnd-classRace-banner.elf {
+  background: url("/dndcsgo/images/raceBanners/elf.jpg");
+}
+
+.dnd-classRace-banner.gnome {
+  background: url("/dndcsgo/images/raceBanners/gnome.jpg");
+}
+
+.dnd-classRace-banner.halfElf {
+  background: url("/dndcsgo/images/raceBanners/halfElf.jpg");
+}
+
+.dnd-classRace-banner.halfling {
+  background: url("/dndcsgo/images/raceBanners/halfling.jpg");
+}
+
+.dnd-classRace-banner.halfOrc {
+  background: url("/dndcsgo/images/raceBanners/halfOrc.jpg");
+}
+
+.dnd-classRace-banner.human {
+  background: url("/dndcsgo/images/raceBanners/human.jpg");
+}
+
+.dnd-classRace-banner.tiefling {
+  background: url("/dndcsgo/images/raceBanners/tiefling.jpg");
+}
+
 .dnd-classRace-banner.bard {
   background: url("/dndcsgo/images/classBanners/bard.jpg");
 }

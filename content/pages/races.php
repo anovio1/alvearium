@@ -12,7 +12,7 @@
 						<span>A warrior who combats threats on the edges of civilization</span>
 						<div class="extraInfo">
 							<span class="">Level Restriction</span>
-							<span class="">56</span>
+							<span class="">1</span>
 						</div>
 					</div>
 				</div>
@@ -28,8 +28,8 @@
 				</div>
 			</div>
 			<div class="alvear-dnd-button-container">
-				<a href="#"><button _target="ranger">...</button></a>
-				<a href="/dndcsgo/ranger"><button>View Ranger Details</button></a>
+				<a href="#"><button _target="human">...</button></a>
+				<a href="/races/human"><button>View Human Details</button></a>
 			</div>
 			<div class="classIcon-container raceIcon  human">
 			</div>
@@ -45,7 +45,7 @@
 						<span>A warrior who combats threats on the edges of civilization</span>
 						<div class="extraInfo">
 							<span class="">Level Restriction</span>
-							<span class="">56</span>
+							<span class="">1</span>
 						</div>
 					</div>
 				</div>
@@ -55,8 +55,8 @@
 				</div>
 			</div>
 			<div class="alvear-dnd-button-container">
-				<a href="#"><button _target="ranger">...</button></a>
-				<a href="/dndcsgo/ranger"><button>View Ranger Details</button></a>
+				<a href="#"><button _target="elf">...</button></a>
+				<a href="/races/elf"><button>View Elf Details</button></a>
 			</div>
 			<div class="classIcon-container raceIcon  elf">
 			</div>
@@ -72,7 +72,7 @@
 						<span>A warrior who combats threats on the edges of civilization</span>
 						<div class="extraInfo">
 							<span class="">Level Restriction</span>
-							<span class="">56</span>
+							<span class="">1</span>
 						</div>
 					</div>
 				</div>
@@ -82,8 +82,8 @@
 				</div>
 			</div>
 			<div class="alvear-dnd-button-container">
-				<a href="#"><button _target="ranger">...</button></a>
-				<a href="/dndcsgo/ranger"><button>View Ranger Details</button></a>
+				<a href="#"><button _target="halfling">...</button></a>
+				<a href="/races/halfling"><button>View Halfling Details</button></a>
 			</div>
 			<div class="classIcon-container raceIcon  halfling">
 			</div>
@@ -98,7 +98,7 @@
 						<span>A warrior who combats threats on the edges of civilization</span>
 						<div class="extraInfo">
 							<span class="">Level Restriction</span>
-							<span class="">56</span>
+							<span class="">1</span>
 						</div>
 					</div>
 				</div>
@@ -109,7 +109,7 @@
 			</div>
 			<div class="alvear-dnd-button-container">
 				<a href="#"><button _target="ranger">...</button></a>
-				<a href="/dndcsgo/ranger"><button>View Ranger Details</button></a>
+				<a href="/races/dwarf"><button>View Dwarf Details</button></a>
 			</div>
 			<div class="classIcon-container raceIcon  dwarf">
 			</div>
@@ -124,7 +124,7 @@
 						<span>A warrior who combats threats on the edges of civilization</span>
 						<div class="extraInfo">
 							<span class="">Level Restriction</span>
-							<span class="">56</span>
+							<span class="">1</span>
 						</div>
 					</div>
 				</div>
@@ -134,8 +134,8 @@
 				</div>
 			</div>
 			<div class="alvear-dnd-button-container">
-				<a href="#"><button _target="ranger">...</button></a>
-				<a href="/dndcsgo/ranger"><button>View Ranger Details</button></a>
+				<a href="#"><button _target="dragonborn">...</button></a>
+				<a href="/races/dragonborn"><button>View Dragonborn Details</button></a>
 			</div>
 			<div class="classIcon-container raceIcon  dragonborn">
 			</div>
@@ -150,7 +150,7 @@
 						<span>A warrior who combats threats on the edges of civilization</span>
 						<div class="extraInfo">
 							<span class="">Level Restriction</span>
-							<span class="">56</span>
+							<span class="">1</span>
 						</div>
 					</div>
 				</div>
@@ -160,8 +160,8 @@
 				</div>
 			</div>
 			<div class="alvear-dnd-button-container">
-				<a href="#"><button _target="ranger">...</button></a>
-				<a href="/dndcsgo/ranger"><button>View Ranger Details</button></a>
+				<a href="#"><button _target="gnome">...</button></a>
+				<a href="/races/gnome"><button>View Gnome Details</button></a>
 			</div>
 			<div class="classIcon-container raceIcon  gnome">
 			</div>
@@ -177,7 +177,7 @@
 						<span>A warrior who combats threats on the edges of civilization</span>
 						<div class="extraInfo">
 							<span class="">Level Restriction</span>
-							<span class="">56</span>
+							<span class="">1</span>
 						</div>
 					</div>
 				</div>
@@ -187,8 +187,8 @@
 				</div>
 			</div>
 			<div class="alvear-dnd-button-container">
-				<a href="#"><button _target="ranger">...</button></a>
-				<a href="/dndcsgo/ranger"><button>View Ranger Details</button></a>
+				<a href="#"><button _target="halfElf">...</button></a>
+				<a href="/races/halfElf"><button>View Half-Elf Details</button></a>
 			</div>
 			<div class="classIcon-container raceIcon  halfElf">
 			</div>
@@ -203,7 +203,7 @@
 						<span>A warrior who combats threats on the edges of civilization</span>
 						<div class="extraInfo">
 							<span class="">Level Restriction</span>
-							<span class="">56</span>
+							<span class="">1</span>
 						</div>
 					</div>
 				</div>
@@ -213,8 +213,8 @@
 				</div>
 			</div>
 			<div class="alvear-dnd-button-container">
-				<a href="#"><button _target="ranger">...</button></a>
-				<a href="/dndcsgo/ranger"><button>View Ranger Details</button></a>
+				<a href="#"><button _target="halfOrc">...</button></a>
+				<a href="/races/halfOrc"><button>View Half-Orc Details</button></a>
 			</div>
 			<div class="classIcon-container raceIcon  halfOrc">
 			</div>
@@ -229,7 +229,7 @@
 						<span>A warrior who combats threats on the edges of civilization</span>
 						<div class="extraInfo">
 							<span class="">Level Restriction</span>
-							<span class="">56</span>
+							<span class="">1</span>
 						</div>
 					</div>
 				</div>
@@ -239,8 +239,8 @@
 				</div>
 			</div>
 			<div class="alvear-dnd-button-container">
-				<a href="#"><button _target="ranger">...</button></a>
-				<a href="/dndcsgo/ranger"><button>View Ranger Details</button></a>
+				<a href="#"><button _target="tiefling">...</button></a>
+				<a href="/races/tiefling"><button>View Tiefling Details</button></a>
 			</div>
 			<div class="classIcon-container raceIcon  tiefling">
 			</div>

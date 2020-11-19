@@ -9,7 +9,6 @@
 
 		public function construct(){
 			$this->fighter =  (object)[
-				'type' => 'class',
 				'description' => 'Questing knights, conquering overlords, royal champions, elite foot soldiers, hardened mercenaries, 
 					and bandit kings—as fighters, they all share an unparalleled mastery with weapons and armor, and a thorough knowledge of the skills of combat.',
 				'weapons' => 'A fighter may use all weapons except Tasers, and only one type of grenade (HE).',
@@ -46,7 +45,6 @@
 			];
 
 			$this->cleric =  (object)[
-				'type' => 'class',
 				'description' => 'Clerics are intermediaries between the mortal world and the distant planes of the gods. As varied as the gods they serve, they strive to embody the handiwork of their deities.',
 				'weapons' => 'A Cleric may use all Pistols, Tasers, Shotguns, Machine Guns, and SMGs.',
 				'skills'=>array(
@@ -84,7 +82,6 @@
 			];
 			
 			$this->sorcerer =  (object)[
-				'type' => 'class',
 				'description' => 'Sorcerers carry a magical birthright conferred upon them by an exotic bloodline, some otherworldly influence, or exposure to unknown cosmic forces. No one chooses sorcery; the power chooses the sorcerer.',
 				'weapons' => 'A Sorcerer may use light Pistols, Tasers, and Grenades.',
 				'skills'=>array(
@@ -136,7 +133,6 @@
 			];
 			
 			$this->rogue =  (object)[
-				'type' => 'class',
 				'description' => 'Rogues rely on skill, stealth, and their foes’ vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem, bringing resourcefulness and versatility to their adventuring parties.',
 				//'weapons' => 'A Sorcerer may use light Pistols, Tasers, and Grenades.',
 				'skills'=>array(
@@ -161,152 +157,6 @@
 					)
 				)
 			];
-			
-			$this->monk =  (object)[
-				'type' => 'class',
-				'description' => 'Monks are united in their ability to magically harness the energy that flows in their bodies. Whether channeled as a striking display of combat prowess or a subtler focus of defensive ability and speed, this energy infuses all that a monk does.',
-				//'weapons' => 'A Sorcerer may use light Pistols, Tasers, and Grenades.',
-				'skills'=>array(
-				)
-			];
-			
-			$this->paladin =  (object)[
-				'type' => 'class',
-				'description' => "Whether sworn before a god's altar and the witness of a priest, in a sacred glade before nature spirits and fey beings, or in a moment of desperation and grief with the dead as the only witness, a paladin's oath is a powerful bond.",
-				//'weapons' => 'A Sorcerer may use light Pistols, Tasers, and Grenades.',
-				'skills'=>array(
-				)
-			];
-			
-			$this->warlock =  (object)[
-				'type' => 'class',
-				'description' => "Warlocks are seekers of the knowledge that lies hidden in the fabric of the multiverse. Through pacts made with mysterious beings of supernatural power, warlocks unlock magical effects both subtle and spectacular.",
-				//'weapons' => 'A Sorcerer may use light Pistols, Tasers, and Grenades.',
-				'skills'=>array(
-				)
-			];
-
-			$this->bard =  (object)[
-				'type' => 'class',
-				'description' => "Whether scholar, skald, or scoundrel, a bard weaves magic through words and music to inspire allies, demoralize foes, manipulate minds, create illusions, and even heal wounds. The bard is a master of song, speech, and the magic they contain.",
-				//'weapons' => 'A Sorcerer may use light Pistols, Tasers, and Grenades.',
-				'skills'=>array(
-				)
-			];
-
-			$this->ranger =  (object)[
-				'type' => 'class',
-				'description' => "Far from the bustle of cities and towns, past the hedges that shelter the most distant farms from the terrors of the wild, amid the dense-packed trees of trackless forests and across wide and empty plains, rangers keep their unending watch.",
-				//'weapons' => 'A Sorcerer may use light Pistols, Tasers, and Grenades.',
-				'skills'=>array(
-				)
-			];
-
-
-
-
-
-			
-			$this->human =  (object)[
-				'type' => 'race',
-				'description' => 'Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.',
-				//'weapons' => 'A Sorcerer may use light Pistols, Tasers, and Grenades.',
-				'skills'=>array(
-					"" => array(
-						"Bonus XP" => "Humans receive a 10% bonus to all XP gains."
-					)
-				)
-			];
-
-			$this->elf =  (object)[
-				'type' => 'race',
-				'description' => 'Elves are a magical people of otherworldly grace, living in the world but not entirely part of it.',
-				//'weapons' => 'A Sorcerer may use light Pistols, Tasers, and Grenades.',
-				'skills'=>array(
-					"" => array(
-						"Elf Weapon Training" => "All Elves can use the M4A1 and AK-47 no matter what class they are."
-					)
-				)
-			];
-
-			$this->halfling =  (object)[
-				'type' => 'race',
-				'description' => 'The comforts of home are the goals of most halflings’ lives: a place to settle in peace and quiet, far from marauding monsters and clashing armies.',
-				//'weapons' => 'A Sorcerer may use light Pistols, Tasers, and Grenades.',
-				'skills'=>array(
-					"" => array(
-						"Small Stature" => "Halflings are quicker to Stealth and harder to hit (10% chance to dodge any damage)."
-					)
-				)
-			];
-
-			$this->dwarf =  (object)[
-				'type' => 'race',
-				'description' => 'Dwarves are solid and enduring like the mountains they love, weathering the passage of centuries with stoic endurance and little change.				',
-				//'weapons' => 'A Sorcerer may use light Pistols, Tasers, and Grenades.',
-				'skills'=>array(
-					"" => array(
-						"Hearty" => "Dwarves receive an extra 25HP.",
-						"Stout" => "Dwarves can always use the AWP.",
-					)
-				)
-			];
-
-			$this->dragonborn =  (object)[
-				'type' => 'race',
-				'description' => 'Born of dragons, as their name proclaims, the dragonborn walk proudly through a world that greets them with fearful incomprehension. Shaped by draconic gods or the dragons themselves, dragonborn originally hatched from dragon eggs as a unique race, combining the best attributes of dragons and humanoids.',
-				//'weapons' => 'A Sorcerer may use light Pistols, Tasers, and Grenades.',
-				'skills'=>array(
-					"" => array(
-						"!cast Breat Weapon" => "Creates a Fireblast in front of the Dragonborn for 3d8 damage to enemies. A Constitution save halves damage. See <a href='/dndcsgo/modhelp'>here</a> for how to cast spells.",
-					)
-				)
-			];
-
-			$this->gnome =  (object)[
-				'type' => 'race',
-				'description' => 'Gnomes take delight in life, enjoying every moment of invention, exploration, investigation, creation, and play.',
-				//'weapons' => 'A Sorcerer may use light Pistols, Tasers, and Grenades.',
-				'skills'=>array(
-					"" => array(
-						"Gnomish Cunning" => "Creates a Fireblast in front of the Dragonborn for 3d8 damage to enemies. A Constitution save halves damage. See <a href='/dndcsgo/modhelp'>here</a> for how to cast spells.",
-					)
-				)
-			];
-
-			$this->halfElf =  (object)[
-				'type' => 'race',
-				'description' => 'Walking in two worlds but truly belonging to neither, half-elves combine what some say are the best qualities of their elf and human parents: human curiosity, inventiveness, and ambition tempered by the refined senses, love of nature, and artistic tastes of the elves.',
-				//'weapons' => 'A Sorcerer may use light Pistols, Tasers, and Grenades.',
-				'skills'=>array(
-					"" => array(
-						"Diplomat" => "Half-Elves receive 5% bonus XP and 10% damage reduction.",
-					)
-				)
-			];
-
-			$this->halfOrc =  (object)[
-				'type' => 'race',
-				'description' => 'Half-orcs are not evil by nature, but evil does lurk within them, whether they embrace it or rebel against it.',
-				//'weapons' => 'A Sorcerer may use light Pistols, Tasers, and Grenades.',
-				'skills'=>array(
-					"" => array(
-						"Brutish" => "Half-Orcs deal 15% more damage.",
-					)
-				)
-			];
-
-			
-			$this->tiefling =  (object)[
-				'type' => 'race',
-				'description' => 'Tiefling ancestors struck a pact generations ago, and were infused with the essence of Asmodeus—overlord of the Nine Hells—into their bloodline. Their appearance and their nature are not their fault but the result of an ancient sin, for which they and their children and their children’s children will always be held accountable.',
-				//'weapons' => 'A Sorcerer may use light Pistols, Tasers, and Grenades.',
-				'skills'=>array(
-					"" => array(
-						"!cast Darkness" => "An instant burst blinds all nearby players. Tieflings are immune to all flashbangs.",
-					)
-				)
-			];
 		}
 	};
 
@@ -316,7 +166,7 @@
 ?>
 	
 <div class="main-content-content-left alone">
-	<div class="dnd-classRace-banner <?php echo($classInfo->$replStr->type); ?> <?php echo($replStr); ?>" style="background-color: #0f0f0f;">
+	<div class="dnd-classRace-banner <?php echo($replStr) ?>" style="background-color: #0f0f0f;">
 		<div class="classRace-banner-title">
 			<h2>The</h2>
 			<h1>
