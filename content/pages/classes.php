@@ -37,7 +37,7 @@
         </div>
         <div class="alvear-dnd-button-container">
             <a href="#"><button _target="fighter">...</button></a>
-            <a href="/dndcsgo/fighter"><button>View Fighter Details</button></a>
+            <a href="/classes/fighter"><button>View Fighter Details</button></a>
         </div>
         <div class="classIcon-container fighter">
         </div>
@@ -75,7 +75,7 @@
         </div>
         <div class="alvear-dnd-button-container">
             <a href="#"><button _target="cleric">...</button></a>
-            <a href="/dndcsgo/cleric"><button>View Cleric Details</button></a>
+            <a href="/classes/cleric"><button>View Cleric Details</button></a>
         </div>
         <div class="classIcon-container cleric">
         </div>
@@ -113,7 +113,7 @@
         </div>
         <div class="alvear-dnd-button-container">
             <a href="#"><button _target="sorcerer">...</button></a>
-            <a href="/dndcsgo/sorcerer"><button>View Sorcerer Details</button></a>
+            <a href="/classes/sorcerer"><button>View Sorcerer Details</button></a>
         </div>
         <div class="classIcon-container sorcerer">
         </div>
@@ -151,7 +151,7 @@
         </div>
         <div class="alvear-dnd-button-container">
             <a href="#"><button _target="rogue">...</button></a>
-            <a href="/dndcsgo/rogue"><button>View Rogue Details</button></a>
+            <a href="/classes/rogue"><button>View Rogue Details</button></a>
         </div>
         <div class="classIcon-container rogue">
         </div>
@@ -189,7 +189,7 @@
         </div>
         <div class="alvear-dnd-button-container">
             <a href="#"><button _target="monk">...</button></a>
-            <a href="/dndcsgo/monk"><button>View Monk Details</button></a>
+            <a href="/classes/monk"><button>View Monk Details</button></a>
         </div>
         <div class="classIcon-container monk">
         </div>
@@ -228,7 +228,7 @@
         </div>
         <div class="alvear-dnd-button-container">
             <a href="#"><button _target="paladin">...</button></a>
-            <a href="/dndcsgo/paladin"><button>View Paladin Details</button></a>
+            <a href="/classes/paladin"><button>View Paladin Details</button></a>
         </div>
         <div class="classIcon-container paladin">
         </div>
@@ -267,7 +267,7 @@
         </div>
         <div class="alvear-dnd-button-container">
             <a href="#"><button _target="warlock">...</button></a>
-            <a href="/dndcsgo/warlock"><button>View Warlock Details</button></a>
+            <a href="/classes/warlock"><button>View Warlock Details</button></a>
         </div>
         <div class="classIcon-container warlock">
         </div>
@@ -305,7 +305,7 @@
         </div>
         <div class="alvear-dnd-button-container">
             <a href="#"><button _target="bard">...</button></a>
-            <a href="/dndcsgo/bard"><button>View Bard Details</button></a>
+            <a href="/classes/bard"><button>View Bard Details</button></a>
         </div>
         <div class="classIcon-container bard">
         </div>
@@ -344,7 +344,7 @@
         </div>
         <div class="alvear-dnd-button-container">
             <a href="#"><button _target="ranger">...</button></a>
-            <a href="/dndcsgo/ranger"><button>View Ranger Details</button></a>
+            <a href="/classes/ranger"><button>View Ranger Details</button></a>
         </div>
         <div class="classIcon-container ranger">
         </div>
