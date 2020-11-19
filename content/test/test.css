@@ -2,6 +2,10 @@ html, body {
   margin: 0;
 }
 
+body {
+  height: 900px;
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -47,10 +51,14 @@ html, body {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .bottom-one .button-top {
-  width: 33%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -58,6 +66,8 @@ html, body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 100%;
+  width: 250px;
   margin: 10px;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
@@ -89,11 +99,54 @@ html, body {
 }
 
 .bottom-one .button-top button {
+  justify-self: flex-end;
   background-color: #00BBB4;
   border: none;
   padding: 15px;
   border-radius: 5px;
   color: white;
   font-family: sans-serif;
+}
+
+.modal {
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background: rgba(26, 26, 26, 0.35);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modal.visible {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.modal span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 30px;
+  color: lightgray;
+  font-style: none;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.modal span:hover {
+  color: white;
+  cursor: pointer;
 }
 /*# sourceMappingURL=test.css.map */

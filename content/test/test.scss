@@ -2,6 +2,10 @@ html,body{
     margin: 0;
 }
 
+body{
+    height: 900px;
+}
+
 .container{
     display: flex;
     width: 100%;
@@ -30,11 +34,14 @@ html,body{
 .bottom-one{
     display: flex;
     width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
 
     .button-top{
-        width: 33%;
         flex-direction: column;
         display: flex;
+        height: 100%;
+        width: 250px;
         margin: 10px;
         box-sizing: content-box;
         align-items: center;
@@ -58,6 +65,7 @@ html,body{
         }
 
         button{
+            justify-self: flex-end;
             background-color: #00BBB4;
             border: none;
             padding: 15px;
@@ -66,4 +74,37 @@ html,body{
             font-family: sans-serif;
         }
     }
+}
+
+.modal{
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background: hsla(0,0%,10%,.35);
+    align-items: center;
+    justify-content: center;
+    
+    &.visible{
+        display: flex;
+    }
+
+    span{
+        display: flex;
+        align-items: flex-start;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 30px;
+        color: lightgray;
+        font-style: none;
+        padding: 10px;
+        font-family: sans-serif;
+
+        &:hover{
+            color: white;
+            cursor:pointer;
+        }
+    }
+
 }
